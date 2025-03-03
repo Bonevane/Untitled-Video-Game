@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,8 +13,12 @@ public class SceneChanger : MonoBehaviour
     [SerializeField]
     private Transform _spawnPoint;
 
+    private Animator transition;
+
     private void Start()
     {
+        transition = GameObject.FindGameObjectWithTag("Fade").GetComponent<Animator>();
+
         if (_connection == SceneConnection.ActiveConnection)
         {
             FindAnyObjectByType<Player>().transform.position = _spawnPoint.position;
@@ -26,7 +31,17 @@ public class SceneChanger : MonoBehaviour
         if (player != null)
         {
             SceneConnection.ActiveConnection = _connection;
-            SceneManager.LoadScene(_targetSceneName);
+            StartCoroutine(LoadNextScene());
         }
     }
+
+    IEnumerator LoadNextScene()
+    {
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSeconds(0.35f);
+
+        SceneManager.LoadScene(_targetSceneName);
+    }
+
 }
