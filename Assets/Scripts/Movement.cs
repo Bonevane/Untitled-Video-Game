@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
     {
         if (dialogueUI.isOpen) return;
 
-        if (Input.GetKeyDown(KeyCode.E)) {
+        if (Input.GetKeyDown(KeyCode.Return)) {
             if (Interactable != null)
             {
                 Interactable.Interact(this);
@@ -44,6 +44,8 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (dialogueUI.isOpen) return;
+
         HandleMovement();
     }
 
