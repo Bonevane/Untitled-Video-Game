@@ -396,19 +396,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4312991286834680329, guid: c05b943f2da876a4db148e833cdd796b, type: 3}
       propertyPath: _targetSceneName
-      value: StartingRoom_2
+      value: StartingRoom
       objectReference: {fileID: 0}
     - target: {fileID: 9112025693253785596, guid: c05b943f2da876a4db148e833cdd796b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4
+      value: 16.9
       objectReference: {fileID: 0}
     - target: {fileID: 9112025693253785596, guid: c05b943f2da876a4db148e833cdd796b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5
+      value: 6.77
       objectReference: {fileID: 0}
     - target: {fileID: 9112025693253785596, guid: c05b943f2da876a4db148e833cdd796b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 28
+      value: -7.1
       objectReference: {fileID: 0}
     - target: {fileID: 9112025693253785596, guid: c05b943f2da876a4db148e833cdd796b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4784,7 +4784,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: da5b540cfad18004f8e09e5ab6b22a59, type: 2}
+  - {fileID: 2100000, guid: c4ce0f6d8cba81444afc8d53c85889b5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
