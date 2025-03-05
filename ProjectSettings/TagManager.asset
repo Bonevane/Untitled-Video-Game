@@ -6,6 +6,7 @@ TagManager:
   tags:
   - SpawnPoint
   - Fade
+  - Canvas
   layers:
   - Default
   - TransparentFX

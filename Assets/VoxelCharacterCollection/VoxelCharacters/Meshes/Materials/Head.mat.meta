@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 68b0fca6851d42e4da471f9a320b4708
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 73842
+  packageName: Voxel Character Collection!
+  packageVersion: 1.1
+  assetPath: Assets/VoxelCharacterCollection/VoxelCharacters/Meshes/Materials/Head.mat
+  uploadId: 732781

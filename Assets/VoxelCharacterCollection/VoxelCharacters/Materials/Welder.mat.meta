@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7f2d03f6bd5613249bad8524cd377ce2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 73842
+  packageName: Voxel Character Collection!
+  packageVersion: 1.1
+  assetPath: Assets/VoxelCharacterCollection/VoxelCharacters/Materials/Welder.mat
+  uploadId: 732781

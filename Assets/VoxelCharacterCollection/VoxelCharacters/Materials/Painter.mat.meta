@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ca8bab18ccf9c3f41bd3d02a64c80c88
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 73842
+  packageName: Voxel Character Collection!
+  packageVersion: 1.1
+  assetPath: Assets/VoxelCharacterCollection/VoxelCharacters/Materials/Painter.mat
+  uploadId: 732781

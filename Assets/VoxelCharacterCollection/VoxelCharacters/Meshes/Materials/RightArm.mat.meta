@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 26ee70cd048c45e429ba9e5ebd034a4e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 73842
+  packageName: Voxel Character Collection!
+  packageVersion: 1.1
+  assetPath: Assets/VoxelCharacterCollection/VoxelCharacters/Meshes/Materials/RightArm.mat
+  uploadId: 732781

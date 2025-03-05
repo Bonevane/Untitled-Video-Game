@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         boxCollider = GetComponent<BoxCollider>(); // Get BoxCollider component
+        dialogueUI = FindAnyObjectByType<DialogueUI>();
         idleRotation = transform.rotation;
     }
 
@@ -79,7 +80,7 @@ public class Player : MonoBehaviour
                 rb.MovePosition(transform.position + moveDirection * adjustedSpeed);
             }
 
-            float angle = Mathf.Atan2(-moveDirection.z, moveDirection.x) * Mathf.Rad2Deg;
+            float angle = Mathf.Atan2(-moveDirection.x, -moveDirection.z) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.Euler(0, angle, 0);
         }
         else
@@ -99,9 +100,12 @@ public class Player : MonoBehaviour
 
     bool CheckCollision(Vector3 direction)
     {
-        Vector3 boxSize = boxCollider.size * 0.7f; // Slightly reduce to prevent edge sticking
-        Vector3 center = transform.position + boxCollider.center;
+        Vector3 boxSize = boxCollider.bounds.extents * 0.9f; // Slightly reduce to prevent edge sticking
+        Vector3 center = boxCollider.bounds.center; // Use world-space center
+        float skinWidth = 0.02f; // Prevent floating-point errors
 
-        return Physics.BoxCast(center, boxSize * 0.5f, direction, Quaternion.identity, collisionCheckDistance, collisionLayers);
+        Debug.DrawRay(center, direction * (collisionCheckDistance - skinWidth), Color.red, 0.1f);
+        return Physics.BoxCast(center, boxSize, direction, transform.rotation, collisionCheckDistance - skinWidth, collisionLayers);
     }
+
 }

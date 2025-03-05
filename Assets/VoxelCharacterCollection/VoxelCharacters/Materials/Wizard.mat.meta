@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 150338a232bfdbf44a7c8994bb4a029d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 73842
+  packageName: Voxel Character Collection!
+  packageVersion: 1.1
+  assetPath: Assets/VoxelCharacterCollection/VoxelCharacters/Materials/Wizard.mat
+  uploadId: 732781
