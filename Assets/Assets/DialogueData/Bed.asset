@@ -18,3 +18,5 @@ MonoBehaviour:
   responses:
   - responseText: Lie down.
     dialogueObject: {fileID: 11400000, guid: 574f1f99625d68d42a2ecb877af41113, type: 2}
+  isJittery: 0
+  typeWritingSpeed: 50

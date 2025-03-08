@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 
 public class TypewriterEffect : MonoBehaviour
 {
-    [SerializeField] private float typewriterSpeed = 50f;
+    // [SerializeField] private float typewriterSpeed = 50f;    // MOVED TO INDIVIDUAL DIALOGUE OBJECT
 
     public bool isRunning { get; private set; }
 
@@ -19,9 +19,9 @@ public class TypewriterEffect : MonoBehaviour
 
     private Coroutine typingCoroutine;
 
-    public void Run(string textToType, TMP_Text textLabel)
+    public void Run(string textToType, TMP_Text textLabel, bool isJittery, float speed)
     {
-        typingCoroutine = StartCoroutine(TypeText(textToType, textLabel));
+        typingCoroutine = StartCoroutine(TypeText(textToType, textLabel, isJittery, speed));
     }
 
     public void Stop()
@@ -30,7 +30,7 @@ public class TypewriterEffect : MonoBehaviour
         isRunning = false;
     }
 
-    private IEnumerator TypeText(string textToType, TMP_Text textLabel)
+    private IEnumerator TypeText(string textToType, TMP_Text textLabel, bool isJittery, float speed)
     {
         isRunning = true;
         textLabel.text = textToType;
@@ -38,12 +38,17 @@ public class TypewriterEffect : MonoBehaviour
 
         float t = 0;
         int charIndex = 0;
-        
+
+        JitterTextEffect jitterEffect = textLabel.GetComponent<JitterTextEffect>();
+
+        if (isJittery) jitterEffect.EnableJitter();
+        else jitterEffect.DisableJitter();
+
         while (charIndex < textLabel.text.Length)
         {
             int lastCharIndex = charIndex;
 
-            t += Time.deltaTime * typewriterSpeed;
+            t += Time.deltaTime * speed;
             charIndex = Mathf.FloorToInt(t);
             charIndex = Mathf.Clamp(charIndex, 0, textLabel.text.Length);
 

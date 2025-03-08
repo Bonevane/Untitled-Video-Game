@@ -16,3 +16,5 @@ MonoBehaviour:
   - The sunlight drapes over it like a warm blanket.
   - For a moment, it almost feels alive.
   responses: []
+  isJittery: 0
+  typeWritingSpeed: 50

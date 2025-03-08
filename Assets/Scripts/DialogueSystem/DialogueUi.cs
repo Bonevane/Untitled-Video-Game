@@ -37,8 +37,10 @@ public class DialogueUI : MonoBehaviour
         for (int i = 0; i < dialogueObject.Dialogue.Length; i++)
         {
             string dialogue = dialogueObject.Dialogue[i];
+            bool isJittery = dialogueObject.IsJittery;
+            float speed = dialogueObject.TypeWritingSpeed;
 
-            yield return RunTypingEffect(dialogue);
+            yield return RunTypingEffect(dialogue, isJittery, speed);
 
             textLabel.maxVisibleCharacters = textLabel.text.Length;
 
@@ -60,9 +62,9 @@ public class DialogueUI : MonoBehaviour
 
     }
 
-    private IEnumerator RunTypingEffect(string dialogue)
+    private IEnumerator RunTypingEffect(string dialogue, bool isJittery, float speed)
     {
-        typewriterEffect.Run(dialogue, textLabel);
+        typewriterEffect.Run(dialogue, textLabel, isJittery, speed);
 
         while (typewriterEffect.isRunning)
         {

@@ -16,3 +16,5 @@ MonoBehaviour:
   - You press a key.
   - It hums, soft and lonely.
   responses: []
+  isJittery: 0
+  typeWritingSpeed: 50
