@@ -4,6 +4,7 @@ using UnityEngine;
 public class DialogueActivator : MonoBehaviour, IInteractable
 {
     [SerializeField] private DialogueObject dialogueObject;
+    private Player playerInRange;
 
 
     public void UpdateDialogueObject (DialogueObject dialogueObject)
@@ -17,6 +18,7 @@ public class DialogueActivator : MonoBehaviour, IInteractable
         if(other.CompareTag("Player") && other.TryGetComponent(out Player player))
         {
             player.Interactable = this;
+            playerInRange = player;
         }
     }
 
@@ -27,6 +29,16 @@ public class DialogueActivator : MonoBehaviour, IInteractable
             if (player.Interactable is DialogueActivator dialogueActivator && dialogueActivator == this ) {
                 player.Interactable = null;
             }
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (playerInRange == null) return;
+
+        if (playerInRange.Interactable is DialogueActivator dialogueActivator && dialogueActivator == this)
+        {
+            playerInRange.Interactable = null;
         }
     }
 

@@ -40,7 +40,7 @@ public class ResponseHandler : MonoBehaviour
 
             tempResponseButtons.Add(responseButton);
 
-            responseBoxHeight += responseButtonTemplate.sizeDelta.y;
+            responseBoxHeight += responseButtonTemplate.sizeDelta.y * 1.75f;
         }
 
         responseBox.sizeDelta = new Vector2(responseBox.sizeDelta.x, responseBoxHeight);

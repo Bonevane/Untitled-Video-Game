@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Bed
   m_EditorClassIdentifier: 
   dialogue:
-  - You feel an overwhelming urge to lie down...
+  - You feel an <b>overwhelming</b> urge to lie down...
   - "Now\u2019s not the time."
-  responses: []
+  responses:
+  - responseText: Lie down.
+    dialogueObject: {fileID: 11400000, guid: 574f1f99625d68d42a2ecb877af41113, type: 2}

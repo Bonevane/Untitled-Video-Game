@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     private BoxCollider boxCollider; // Change to BoxCollider
 
 
+    private bool enterReleased = true;
     public DialogueUI DialogueUI => dialogueUI;
     public IInteractable Interactable { get; set; }
 
@@ -32,8 +33,11 @@ public class Player : MonoBehaviour
     {
         if (dialogueUI.isOpen) return;
 
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyUp(KeyCode.Return)) enterReleased = true;
+
+        if (Input.GetKeyDown(KeyCode.Return) && enterReleased)
         {
+            enterReleased = false;
             if (Interactable != null)
             {
                 Interactable.Interact(this);

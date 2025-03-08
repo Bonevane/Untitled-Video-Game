@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 using System.Collections.Generic;
+using UnityEngine.UIElements;
 
 public class TypewriterEffect : MonoBehaviour
 {
@@ -32,26 +33,28 @@ public class TypewriterEffect : MonoBehaviour
     private IEnumerator TypeText(string textToType, TMP_Text textLabel)
     {
         isRunning = true;
-        textLabel.text = string.Empty;
+        textLabel.text = textToType;
+        textLabel.maxVisibleCharacters = 0;
 
         float t = 0;
         int charIndex = 0;
         
-        while (charIndex < textToType.Length)
+        while (charIndex < textLabel.text.Length)
         {
             int lastCharIndex = charIndex;
 
             t += Time.deltaTime * typewriterSpeed;
             charIndex = Mathf.FloorToInt(t);
-            charIndex = Mathf.Clamp(charIndex, 0, textToType.Length);
+            charIndex = Mathf.Clamp(charIndex, 0, textLabel.text.Length);
+
 
             for (int i = lastCharIndex; i < charIndex; i++)
             {
-                bool isLast = i >= textToType.Length - 1;
+                bool isLast = i >= textLabel.text.Length - 1;
 
-                textLabel.text = textToType.Substring(0, i + 1);
+                textLabel.maxVisibleCharacters = i + 1;
 
-                if (IsPunctuation(textToType[i], out float waitTime) && !isLast && !IsPunctuation(textToType[i + 1], out _))
+                if (IsPunctuation(textLabel.text[i], out float waitTime) && !isLast && !IsPunctuation(textLabel.text[i + 1], out _))
                 {
                     yield return new WaitForSeconds(waitTime);
                 }

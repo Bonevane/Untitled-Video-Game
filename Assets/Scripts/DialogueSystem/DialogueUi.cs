@@ -40,7 +40,7 @@ public class DialogueUI : MonoBehaviour
 
             yield return RunTypingEffect(dialogue);
 
-            textLabel.text = dialogue;
+            textLabel.maxVisibleCharacters = textLabel.text.Length;
 
             if(i == dialogueObject.Dialogue.Length - 1  && dialogueObject.HasResponses) break;
 
