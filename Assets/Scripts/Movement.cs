@@ -3,12 +3,14 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] private DialogueUI dialogueUI;
+    [SerializeField] private GameObject playerModel;
 
     public float moveSpeed = 1f;
     public float verticalSpeedMultiplier = 1.1f;
     public float diagonalSpeedMultiplier = 1.1f;
     public float sprintMultiplier = 1.5f;
     public float collisionCheckDistance = 0.1f;
+    public bool rotation = true;
     public LayerMask collisionLayers;
 
     private Vector3 moveDirection;
@@ -26,7 +28,7 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         boxCollider = GetComponent<BoxCollider>(); // Get BoxCollider component
         dialogueUI = FindAnyObjectByType<DialogueUI>();
-        idleRotation = transform.rotation;
+        idleRotation = playerModel.transform.rotation;
     }
 
     private void Update()
@@ -84,12 +86,14 @@ public class Player : MonoBehaviour
                 rb.MovePosition(transform.position + moveDirection * adjustedSpeed);
             }
 
-            float angle = Mathf.Atan2(-moveDirection.x, -moveDirection.z) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0, angle, 0);
+            float angle = Mathf.Atan2(moveDirection.x, moveDirection.z) * Mathf.Rad2Deg;
+            
+            if (rotation)
+                playerModel.transform.rotation = Quaternion.Euler(0, angle, 0);
         }
         else
         {
-            transform.rotation = idleRotation;
+            playerModel.transform.rotation = idleRotation;
         }
     }
 

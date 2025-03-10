@@ -154,11 +154,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueUI: {fileID: 0}
+  playerModel: {fileID: 6669145884946423331}
   moveSpeed: 0.3
   verticalSpeedMultiplier: 1.6
   diagonalSpeedMultiplier: 1.25
   sprintMultiplier: 1.5
   collisionCheckDistance: 1
+  rotation: 1
   collisionLayers:
     serializedVersion: 2
     m_Bits: 1
@@ -433,6 +435,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alchemist
       objectReference: {fileID: 0}
+    - target: {fileID: 367677349987795908, guid: c73539890348915498045f5cd9b84838, type: 3}
+      propertyPath: m_TagString
+      value: PlayerModel
+      objectReference: {fileID: 0}
     - target: {fileID: 367677349987966948, guid: c73539890348915498045f5cd9b84838, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.1
@@ -497,5 +503,10 @@ PrefabInstance:
 --- !u!4 &6669145884946252291 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 367677349987966948, guid: c73539890348915498045f5cd9b84838, type: 3}
+  m_PrefabInstance: {fileID: 6455857577284050407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6669145884946423331 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 367677349987795908, guid: c73539890348915498045f5cd9b84838, type: 3}
   m_PrefabInstance: {fileID: 6455857577284050407}
   m_PrefabAsset: {fileID: 0}
