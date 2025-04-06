@@ -1,0 +1,1591 @@
+fileFormatVersion: 2
+guid: 5e481ec971c9c324684e7ac5c20c38ad
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kris_albedo_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 593
+        width: 82
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f51e7f78c9f8a24ba7c93362c17b9bf
+      internalID: 1209713054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 592
+        width: 82
+        height: 156
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73d097990990fd4a9ac4636b8d9e6a3
+      internalID: 1348576426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_2
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 592
+        width: 83
+        height: 161
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ac2fe88f9290b4783a0d818c1dd65d
+      internalID: 925283247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_3
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 591
+        width: 82
+        height: 157
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffa46d3a329f804eb6221ad8753c326
+      internalID: 1603957088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_4
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 595
+        width: 87
+        height: 159
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f7b4b465a042f4e91931938df9767a
+      internalID: -1291249469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_5
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 593
+        width: 83
+        height: 154
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42964f081c471d4b84b8db161f317be
+      internalID: -544599579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_6
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 590
+        width: 88
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8183a74e84eb64397ec7defe9cd9da
+      internalID: 148114801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_7
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 593
+        width: 84
+        height: 156
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad0f209755262242b5f42ff27f18c33
+      internalID: -207388742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_8
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 592
+        width: 91
+        height: 164
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0285450af111c34d89432820f7dc7d6
+      internalID: 1360329656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_9
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 590
+        width: 87
+        height: 158
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4bc1dfd42190644ab630fc26b3cf00
+      internalID: 424871330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_10
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 588
+        width: 91
+        height: 164
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69897242fb746aa499a0d46df73fd83e
+      internalID: -535832485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_11
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 591
+        width: 88
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab23138b623c7f84dacdeb4fda0daa47
+      internalID: -786487048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_12
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 593
+        width: 92
+        height: 165
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85745727f38fca446aac079feab1e8d2
+      internalID: 545086391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_13
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 591
+        width: 88
+        height: 159
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a924522232cb14e991d97c130f493b
+      internalID: -382729794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_14
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 589
+        width: 92
+        height: 165
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523c3a5e9fe9a0a489f872d5678e46a1
+      internalID: -106373162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_15
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 592
+        width: 89
+        height: 161
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c0f8728122af642be03adfcabd3f0b
+      internalID: 1415192155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 398
+        width: 80
+        height: 159
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2719b34ee72c00941818659799787ee2
+      internalID: -1783342728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_17
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 398
+        width: 82
+        height: 153
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83e3ebaffca07b41b980a0f4b43f329
+      internalID: 1965173120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_18
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 397
+        width: 82
+        height: 162
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785b85eaacdc3164e9dc3eb21619aed9
+      internalID: 1332128902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_19
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 398
+        width: 81
+        height: 153
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057943cb305168b4ebcfdf283251f69f
+      internalID: -1492204650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_20
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 400
+        width: 81
+        height: 156
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3221dca9d8a06741bac46ac07854e90
+      internalID: 476872208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_21
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 398
+        width: 86
+        height: 155
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242152dd8eabf2e478782cbc24b551e3
+      internalID: 479087851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_22
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 399
+        width: 82
+        height: 157
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5143f31910e1c40bcba18d3b7dc03c
+      internalID: 1556492969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_23
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 397
+        width: 83
+        height: 156
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6dfd797728ddf4d9f6112afc0d1543
+      internalID: 1494996409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_24
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 398
+        width: 85
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b86e9d71cad7942b79fe63a4b467df
+      internalID: 1094214615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_25
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 395
+        width: 89
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d6afa1c9426fa4d97ffeb152bf01d6
+      internalID: 1324987588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_26
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 398
+        width: 85
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f5102f52a59e040bb09476d37c37b1
+      internalID: -169929499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_27
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 394
+        width: 87
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cd3e500f909024cb09b952e1345430
+      internalID: 1469926962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_28
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 399
+        width: 86
+        height: 161
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f24a42b0a705c4ea8a325b38803be5
+      internalID: 404789731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_29
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 396
+        width: 90
+        height: 161
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc212b5d7976b0438f0b4543a32e9a1
+      internalID: 54448599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_30
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 398
+        width: 86
+        height: 162
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b2fb1119cca6f4cb17e0a5e245dc31
+      internalID: 1681918640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_31
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 395
+        width: 88
+        height: 161
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eff37afce2ac7a4d9512a518e939705
+      internalID: 1063860083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_32
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 206
+        width: 84
+        height: 152
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff19a797b7d28347a390340c510f6f1
+      internalID: 1453150608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 206
+        width: 81
+        height: 153
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3560fbd6d443e574fbfb1a33ffa5ca8f
+      internalID: 1437617366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_34
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 203
+        width: 85
+        height: 153
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5ceef00d222544884d6fbf76014b9f
+      internalID: 2053569103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_35
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 204
+        width: 82
+        height: 154
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aad4e24e9ad73e49bb0e493cc10c3a7
+      internalID: 1766770970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_36
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 204
+        width: 86
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40495df83327ab40abc8df2e220ef9c
+      internalID: 660594301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_37
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 201
+        width: 85
+        height: 159
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c90dfd9d6e4d8846817e0f523225d37
+      internalID: -1225795493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_38
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 203
+        width: 87
+        height: 161
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c9746724d2cc34b800f477e43287b2
+      internalID: -1020717131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_39
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 203
+        width: 85
+        height: 156
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146c40e2e34148e4b831983c93928f66
+      internalID: 721688213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_40
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 202
+        width: 90
+        height: 163
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4808818f374168b4faa35aefaecd1bde
+      internalID: 566637134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_41
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 198
+        width: 89
+        height: 163
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b16ddb9bd00b74caaf2a92a2aa3e15
+      internalID: 1267396979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_42
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 202
+        width: 90
+        height: 163
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d27ce13cdd3d014c9779c20c307a804
+      internalID: 235639494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_43
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 200
+        width: 89
+        height: 161
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3346e96afd4a8ba47806dbda36b447c7
+      internalID: -1336228096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_44
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 202
+        width: 91
+        height: 165
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f85a79cc3275e4b8ea8140cc1b6f1d
+      internalID: 1076439887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_45
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 199
+        width: 90
+        height: 164
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d296c48cfd3124db14faa1057c16c7
+      internalID: -921503260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_46
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 203
+        width: 91
+        height: 164
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58b064c001123d45a4dd65a3146699c
+      internalID: -1596516394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_47
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 201
+        width: 90
+        height: 162
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa19c537397ec248bc91cd1102729fd
+      internalID: -790639067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_48
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 9
+        width: 81
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b8bea0998e7984088ac4a5ec43842a
+      internalID: 1803426745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_49
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 10
+        width: 82
+        height: 154
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96d7270971eaab458f074846c7cb298
+      internalID: -1668020380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_50
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 8
+        width: 81
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e268b16340bfa498eb8749e704d869
+      internalID: -846121349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_51
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 8
+        width: 82
+        height: 154
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddfefebc8a8f4144bc267c668722c38
+      internalID: 329028330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_52
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 8
+        width: 84
+        height: 157
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9096c4ea0916e40a7eeca3322f5bf6
+      internalID: 401858081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_53
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 9
+        width: 88
+        height: 156
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61be88b4ffa5d0e4b845c6fa3699dc44
+      internalID: -2126313395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_54
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 8
+        width: 83
+        height: 157
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adb66b47ff811b46816d0c9438b16bb
+      internalID: -1352580675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_55
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 5
+        width: 85
+        height: 157
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b80a0ee517828f45994b4cad844809b
+      internalID: 167983681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_56
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 7
+        width: 85
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6d30b3ba527a44ab8952de7a30401d
+      internalID: 522679293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_57
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 7
+        width: 89
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2814c57f8aff2ee419e13b9115e04bed
+      internalID: -760857714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_58
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 7
+        width: 84
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bd1a94ea24cb04d8e518243eff076b
+      internalID: 1610199618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_59
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 3
+        width: 87
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6547c76e28597748b76af8cb1006e02
+      internalID: -832220549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_60
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 8
+        width: 86
+        height: 161
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3a40bf90745484b868d381c4badbc9
+      internalID: -702943463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_61
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 8
+        width: 90
+        height: 161
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832908dfb0888af459c77290c831fdc8
+      internalID: 875225526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_62
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 8
+        width: 85
+        height: 161
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0373272f5740a4da7ac1844545f25b
+      internalID: 757187519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kris_albedo_63
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 4
+        width: 88
+        height: 161
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d9cd93cdab9664cbec7eb0dcf8d88c
+      internalID: 622850882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0bbfbed0271294447a84f3da44a92691
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: 1a05c7123ded5d54f8b660c09a83b9f4, type: 3}
+      name: _NormalMap
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      kris_albedo_0: 1209713054
+      kris_albedo_1: 1348576426
+      kris_albedo_10: -535832485
+      kris_albedo_11: -786487048
+      kris_albedo_12: 545086391
+      kris_albedo_13: -382729794
+      kris_albedo_14: -106373162
+      kris_albedo_15: 1415192155
+      kris_albedo_16: -1783342728
+      kris_albedo_17: 1965173120
+      kris_albedo_18: 1332128902
+      kris_albedo_19: -1492204650
+      kris_albedo_2: 925283247
+      kris_albedo_20: 476872208
+      kris_albedo_21: 479087851
+      kris_albedo_22: 1556492969
+      kris_albedo_23: 1494996409
+      kris_albedo_24: 1094214615
+      kris_albedo_25: 1324987588
+      kris_albedo_26: -169929499
+      kris_albedo_27: 1469926962
+      kris_albedo_28: 404789731
+      kris_albedo_29: 54448599
+      kris_albedo_3: 1603957088
+      kris_albedo_30: 1681918640
+      kris_albedo_31: 1063860083
+      kris_albedo_32: 1453150608
+      kris_albedo_33: 1437617366
+      kris_albedo_34: 2053569103
+      kris_albedo_35: 1766770970
+      kris_albedo_36: 660594301
+      kris_albedo_37: -1225795493
+      kris_albedo_38: -1020717131
+      kris_albedo_39: 721688213
+      kris_albedo_4: -1291249469
+      kris_albedo_40: 566637134
+      kris_albedo_41: 1267396979
+      kris_albedo_42: 235639494
+      kris_albedo_43: -1336228096
+      kris_albedo_44: 1076439887
+      kris_albedo_45: -921503260
+      kris_albedo_46: -1596516394
+      kris_albedo_47: -790639067
+      kris_albedo_48: 1803426745
+      kris_albedo_49: -1668020380
+      kris_albedo_5: -544599579
+      kris_albedo_50: -846121349
+      kris_albedo_51: 329028330
+      kris_albedo_52: 401858081
+      kris_albedo_53: -2126313395
+      kris_albedo_54: -1352580675
+      kris_albedo_55: 167983681
+      kris_albedo_56: 522679293
+      kris_albedo_57: -760857714
+      kris_albedo_58: 1610199618
+      kris_albedo_59: -832220549
+      kris_albedo_6: 148114801
+      kris_albedo_60: -702943463
+      kris_albedo_61: 875225526
+      kris_albedo_62: 757187519
+      kris_albedo_63: 622850882
+      kris_albedo_7: -207388742
+      kris_albedo_8: 1360329656
+      kris_albedo_9: 424871330
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

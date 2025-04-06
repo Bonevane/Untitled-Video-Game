@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 02d32040ca1faff4994775b054ca8374
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 73842
+  packageName: Voxel Character Collection!
+  packageVersion: 1.1
+  assetPath: Assets/VoxelCharacterCollection/VoxelCharacters/Materials/Pirate.mat
+  uploadId: 732781

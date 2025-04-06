@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88c5ad941034cd42906351933871ff2, type: 3}
+  m_Name: DeskDiary
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "Nell\u2019s diary sits quietly on the desk."
+  - Do you wish to read it?
+  responses:
+  - responseText: Read
+    dialogueObject: {fileID: 11400000, guid: cfdc05e600281ab48889c87bd2ef6860, type: 2}
+  - responseText: Don't read
+    dialogueObject: {fileID: 11400000, guid: 4bd796993dfdc7f49a07b85e8b00e01a, type: 2}
+  isJittery: 0
+  typeWritingSpeed: 50

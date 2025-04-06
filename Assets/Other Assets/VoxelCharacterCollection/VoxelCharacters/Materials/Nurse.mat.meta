@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8c8969cd528443940be5af46065bad4f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 73842
+  packageName: Voxel Character Collection!
+  packageVersion: 1.1
+  assetPath: Assets/VoxelCharacterCollection/VoxelCharacters/Materials/Nurse.mat
+  uploadId: 732781
