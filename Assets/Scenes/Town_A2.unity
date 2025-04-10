@@ -14,13 +14,13 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 1, g: 0, b: 0.4993925, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.002
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientSkyColor: {r: 0.23773581, g: 0.23773581, b: 0.23773581, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1.2
@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: d1a14b4a377ea5c4bac5e747b137ccd0, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: e092a331f5f5a3743a06d2e1843010b8, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: d7f15817188bece4eb370ac685b29827, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -1230,6 +1230,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree Type0 04
       objectReference: {fileID: 0}
+    - target: {fileID: 138344, guid: 8a7cf5ac7b4145441a3dca86f869b09e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 448686, guid: 8a7cf5ac7b4145441a3dca86f869b09e, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.8
@@ -1894,7 +1898,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5376622925239166832, guid: 82952b943b1419f4b94f5aa24daa9f3b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -184.4
+      value: -185
       objectReference: {fileID: 0}
     - target: {fileID: 5376622925239166832, guid: 82952b943b1419f4b94f5aa24daa9f3b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1902,7 +1906,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5376622925239166832, guid: 82952b943b1419f4b94f5aa24daa9f3b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 160.4
+      value: 162.7
       objectReference: {fileID: 0}
     - target: {fileID: 5376622925239166832, guid: 82952b943b1419f4b94f5aa24daa9f3b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3491,7 +3495,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1705358342
 Transform:
@@ -4694,7 +4698,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 0, g: 0.018213272, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.5814738, a: 1}
   m_Intensity: 0.1
   m_Range: 10
   m_SpotAngle: 30

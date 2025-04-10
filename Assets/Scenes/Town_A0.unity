@@ -15,9 +15,9 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogColor: {r: 0, g: 0, b: 0, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.008
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
@@ -1408,11 +1408,11 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2588191, y: -0, z: -0, w: 0.9659258}
-  m_LocalPosition: {x: -31.15, y: -107, z: 86.2}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0, y: 1.6516674, z: -5.5}
+  m_LocalScale: {x: 0.16666667, y: 0.095238104, z: 0.13333333}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 804122233}
   m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
@@ -3188,7 +3188,7 @@ Light:
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 2
   m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
+  m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
@@ -3876,7 +3876,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5376622925239166832, guid: 82952b943b1419f4b94f5aa24daa9f3b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -31.15
+      value: -162.5
       objectReference: {fileID: 0}
     - target: {fileID: 5376622925239166832, guid: 82952b943b1419f4b94f5aa24daa9f3b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3884,7 +3884,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5376622925239166832, guid: 82952b943b1419f4b94f5aa24daa9f3b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 102.7
+      value: 116.8
       objectReference: {fileID: 0}
     - target: {fileID: 5376622925239166832, guid: 82952b943b1419f4b94f5aa24daa9f3b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3992,7 +3992,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5376622925239166832, guid: 82952b943b1419f4b94f5aa24daa9f3b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 330585546}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82952b943b1419f4b94f5aa24daa9f3b, type: 3}
 --- !u!4 &804122233 stripped
@@ -10053,7 +10056,6 @@ SceneRoots:
   - {fileID: 219316267}
   - {fileID: 7863281302467934421}
   - {fileID: 833376091}
-  - {fileID: 330585546}
   - {fileID: 804122232}
   - {fileID: 245017598}
   - {fileID: 1805709688}
