@@ -135,7 +135,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _Surface: 0
     - _SurfaceDistortion: -1.4
-    - _WindFoliageAmplitude: 0.087
+    - _WindFoliageAmplitude: 0.153
     - _WindFoliageSpeed: 0.08
     - _WindTrunkAmplitude: 0.115
     - _WindTrunkSpeed: 0.102
@@ -145,12 +145,13 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.48684746, g: 0.754717, b: 0.06051977, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color0: {r: 0.7022313, g: 1, b: 0, a: 0}
-    - _Color1: {r: 0.31438136, g: 0.5568628, b: 0, a: 1}
+    - _Color0: {r: 0.22843659, g: 0.42641503, b: 0, a: 0}
+    - _Color1: {r: 0.31329042, g: 0.4792453, b: 0, a: 1}
     - _EmissionColor: {r: 0.06780411, g: 0.21698111, b: 0, a: 1}
     - _SSScolor: {r: 0.23395005, g: 0.5377358, b: 0, a: 0}
     - _SpecColor: {r: 0.6399291, g: 1, b: 0.15686166, a: 0.2}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!114 &1093774538138908404
 MonoBehaviour:
   m_ObjectHideFlags: 11

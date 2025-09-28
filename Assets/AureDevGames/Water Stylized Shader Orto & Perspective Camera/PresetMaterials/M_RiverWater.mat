@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 9
+  version: 10
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -94,14 +94,14 @@ Material:
     - _CaveBlend: 0
     - _CaveDistortion: 0
     - _DepthCompareDistance: 0.1
-    - _DepthFadeDistance: 28
+    - _DepthFadeDistance: 10
     - _FoamBlend: 0.09
     - _FresnelPower: 1
     - _GradientRefractionScale: 10
-    - _HorizonDistance: 18
+    - _HorizonDistance: 78
     - _IntersectionFoamBlend: 1.09
     - _IntersectionFoamCutoff: 3.57
-    - _IntersectionFoamDepth: 2.69
+    - _IntersectionFoamDepth: 2
     - _IntersectionFoamDirection: 0.65
     - _IntersectionFoamFade: 1.48
     - _IntersectionFoamSpeed: 0.16
@@ -126,9 +126,9 @@ Material:
     - _SecondaryFoamBlend: 0.06
     - _SkyboxForce: 2.5
     - _Steps: 50
-    - _SurfaceFoamDirection: 1
+    - _SurfaceFoamDirection: 0
     - _SurfaceFoamDistorsion: 0.38
-    - _SurfaceFoamSpeed: 1.43
+    - _SurfaceFoamSpeed: 0
     - _SurfaceFoamTiling: 0.69
     - _TileSize: 200
     - _WORLD_SPACE_UV: 1
